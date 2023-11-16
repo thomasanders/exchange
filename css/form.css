@@ -1,5 +1,4 @@
 .form__labelText {
-  
   width: 100%;
   max-width: 100px;
   display: inline-block;
@@ -15,7 +14,7 @@
 .form__field {
   border: 1px solid #ccc;
   background-color: rgba(18, 51, 93, 0.304);
-  
+
   padding: 10px;
   width: 100%;
   max-width: 350px;
@@ -24,7 +23,7 @@
 .form__fieldset {
   border: 1px solid #ccc;
   font-size: 20px;
-  
+
   padding: 20px;
   background-color: rgba(7, 40, 83, 0.304);
   box-shadow: 2px 2px 8px #eeecec;
@@ -37,7 +36,6 @@
   color: white;
   border-radius: 5px;
   padding: 10px;
-  
 }
 
 .form {
