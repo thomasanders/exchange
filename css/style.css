@@ -1,5 +1,10 @@
 html {
   box-sizing: border-box;
+  background-image: url(../images/background.png);
+  
+  resize: both;
+  overflow: auto;
+  background-size: auto;
 }
 
 *,
@@ -12,3 +17,5 @@ html {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
+
+
