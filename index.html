@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Money Exchange</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/container.css" />
+
+    <script defer src="js/script.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form js-form">
+        <fieldset class="form__fieldset">
+          <legend class="form__legend">Money Exchange</legend>
+          <p>
+            <span class="form__labelText">Polish zloty PLN*</span>
+            <input
+              placeholder="enter amount"
+              type="number"
+              class="form__field js-amount"
+              required
+              step="0.01"
+            />
+          </p>
+
+          <p>
+            <label>
+              <span class="form__labelText"> Currency: </span>
+              <select class="form__field js-currency">
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="GBP">GBP</option>
+              </select>
+            </label>
+          </p>
+
+          <button class="section__button">Convert</button>
+
+          <p>
+            The Sum Is: <strong class="form__result js-result">0.00</strong>
+          </p>
+          <p></p>
+        </fieldset>
+      </form>
+    </div>
+
+    <script type="text/javascript"></script>
+  </body>
+</html>
