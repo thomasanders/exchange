@@ -1,4 +1,5 @@
 .form__labelText {
+  
   width: 100%;
   max-width: 100px;
   display: inline-block;
@@ -6,13 +7,15 @@
 }
 
 .form__result {
-  color: rgb(10, 52, 52);
+  color: rgb(4, 8, 8);
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .form__field {
   border: 1px solid #ccc;
+  background-color: rgba(18, 51, 93, 0.304);
+  
   padding: 10px;
   width: 100%;
   max-width: 350px;
@@ -20,7 +23,11 @@
 }
 .form__fieldset {
   border: 1px solid #ccc;
+  font-size: 20px;
+  
   padding: 20px;
+  background-color: rgba(7, 40, 83, 0.304);
+  box-shadow: 2px 2px 8px #eeecec;
   border-radius: 5px;
   margin: 50px 0;
 }
@@ -30,6 +37,7 @@
   color: white;
   border-radius: 5px;
   padding: 10px;
+  
 }
 
 .form {
